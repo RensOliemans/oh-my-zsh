@@ -1,3 +1,6 @@
+custom/plugins/
+custom/themes/
+
 # temp files directories
 cache/
 log/
