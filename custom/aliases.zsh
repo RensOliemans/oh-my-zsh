@@ -9,8 +9,7 @@
 # cd $brainstormr
 #
 
-alias py='python3'
-alias randvenv='source ~/venvs/random/bin/activate'
+alias py='python3.7'
 
 alias spw='py ~/Projects/randomshit/spreekwoorden/spreekwoorden.py'
 alias spreekwoord='spw -a 1'
@@ -23,15 +22,16 @@ alias sourcez='source ~/.zshrc'
 
 alias sl='ls'
 
-# VIRTUALENVS
-alias random='source ~/venvs/random/bin/activate'
-alias ml='source ~/venvs/ML/bin/activate'
-alias tmc='source ~/venvs/themecourse/bin/activate'
+alias xo='xdg-open'
 
 export DDA='residentiedirtya.student.utwente.nl'
 alias sshdda="ssh pi@$DDA"
 
 alias swaprm='rm ~/.local/share/nvim/swap/*.swp'
+
+# Git commands
+# Overrule gs ghostscript from oh-my-zsh
+alias gs='gss'
 
 # All gitmoji commands
 # Go to gitmoji website
@@ -69,3 +69,5 @@ alias gdata='gcmsg ":card_file_box:'           # Changing data(base) files
 alias ggignore='gcmsg ":see_no_evil:'          # Changing .gitignore file
 alias glicense='gcmsg ":page_facing_up:'       # Changing license files
 alias gmerge='gcmsg ":handshake:'              # Merging code
+alias gupgr='gcmsg ":arrow_up:'                # Upgrading dependencies
+alias gdowngr='gcmsg ":arrow_down:'            # Downgrading dependencies
