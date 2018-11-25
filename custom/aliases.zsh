@@ -32,6 +32,8 @@ alias swaprm='rm ~/.local/share/nvim/swap/*.swp'
 # Git commands
 # Overrule gs ghostscript from oh-my-zsh
 alias gs='gss'
+alias gbv='gb -v'
+alias gmd='gm --no-ff develop'
 
 # All gitmoji commands
 # Go to gitmoji website
