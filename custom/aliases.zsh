@@ -11,16 +11,16 @@
 
 alias py='python3.7'
 
+# fancy things
 alias spw='py ~/Projects/randomshit/spreekwoorden/spreekwoorden.py'
 alias spreekwoord='spw -a 1'
+alias snapple='py ~/Projects/randomshit/snapple/snapple.py'
 
 alias upgrade='sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y'
 
 
 alias balias='vim ~/.oh-my-zsh/custom/aliases.zsh && source ~/.zshrc'
 alias sourcez='source ~/.zshrc'
-
-alias sl='ls'
 
 alias xo='xdg-open'
 
