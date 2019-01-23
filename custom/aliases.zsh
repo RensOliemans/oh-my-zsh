@@ -10,6 +10,9 @@
 #
 
 alias py='python3.7'
+alias balias='vim ~/.oh-my-zsh/custom/aliases.zsh && source ~/.zshrc'
+alias sourcez='source ~/.zshrc'
+alias xo='xdg-open'
 
 # fancy things
 alias spw='py ~/Projects/randomshit/spreekwoorden/spreekwoorden.py'
@@ -18,23 +21,32 @@ alias snapple='py ~/Projects/randomshit/snapple/snapple.py'
 
 alias upgrade='sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y'
 
-
-alias balias='vim ~/.oh-my-zsh/custom/aliases.zsh && source ~/.zshrc'
-alias sourcez='source ~/.zshrc'
-
-alias xo='xdg-open'
-
 export DDA='residentiedirtya.student.utwente.nl'
 alias sshdda="ssh pi@$DDA"
 
 alias swaprm='rm ~/.local/share/nvim/swap/*.swp'
 
+alias sn='~/.AppImages/standard-notes-2.3.13-x86_64.AppImage'
+
+# A plugin aliases rm to rm -i, I don't want that
+unalias rm
+
+alias -g BORG='~/Documents/studie ~/Documents/Main\ database\ 2.kdbx ~/SpiderOak\ Hive ~/.config ~/.zshrc ~/Main\ Library --stats'
+
+# ==============================   GIT   =============================
 # Git commands
 # Overrule gs ghostscript from oh-my-zsh
 alias gs='gss'
-alias gbv='gb -v'
-alias gmd='gm --no-ff develop'
+alias gbv='git branch -v'
+alias gmd='git merge --no-ff develop'
+alias gmm='git merge master'
+alias gfu='git fetch upstream'
+alias gfom='git fetch origin master'
+alias gfum='git fetch upstream master'
 
+
+
+# ==============================   GITMOJI ===========================
 # All gitmoji commands
 # Go to gitmoji website
 alias gitmoji='xdg-open https://github.com/slashsBin/styleguide-git-commit-message'
