@@ -1,38 +1,3 @@
-# You can put files here to add functionality separated per file, which
-# will be ignored by git.
-# Files on the custom/ directory will be automatically loaded by the init
-# script, in alphabetical order.
-
-# For example: add yourself some shortcuts to projects you often work on.
-#
-# brainstormr=~/Projects/development/planetargon/brainstormr
-# cd $brainstormr
-#
-
-alias py='python3.7'
-alias balias='vim ~/.oh-my-zsh/custom/aliases.zsh && source ~/.zshrc'
-alias sourcez='source ~/.zshrc'
-alias xo='xdg-open'
-
-# fancy things
-alias spw='py ~/Projects/randomshit/spreekwoorden/spreekwoorden.py'
-alias spreekwoord='spw -a 1'
-alias snapple='py ~/Projects/randomshit/snapple/snapple.py'
-
-alias upgrade='sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y'
-
-export DDA='residentiedirtya.student.utwente.nl'
-alias sshdda="ssh pi@$DDA"
-
-alias swaprm='rm ~/.local/share/nvim/swap/*.swp'
-
-alias sn='~/.AppImages/standard-notes-2.3.13-x86_64.AppImage'
-
-# A plugin aliases rm to rm -i, I don't want that
-unalias rm
-
-alias -g BORG='~/Documents/studie ~/Documents/Main\ database\ 2.kdbx ~/SpiderOak\ Hive ~/.config ~/.zshrc ~/Main\ Library --stats'
-
 # ==============================   GIT   =============================
 # Git commands
 # Overrule gs ghostscript from oh-my-zsh
@@ -51,7 +16,7 @@ alias gfum='git fetch upstream master'
 # Go to gitmoji website
 alias gitmoji='xdg-open https://github.com/slashsBin/styleguide-git-commit-message'
 alias gmo='gitmoji'
-alias gmoj='cat ~/.oh-my-zsh/custom/aliases.zsh | grep "gcmsg"'
+alias gmoj='cat ~/.oh-my-zsh/custom/aliases/git.zsh | grep "gcmsg"'
 
 # Gitmoji specific shortcuts
 alias gart='gcmsg ":art:'                      # Improving format/structure of code
@@ -85,3 +50,7 @@ alias glicense='gcmsg ":page_facing_up:'       # Changing license files
 alias gmerge='gcmsg ":handshake:'              # Merging code
 alias gupgr='gcmsg ":arrow_up:'                # Upgrading dependencies
 alias gdowngr='gcmsg ":arrow_down:'            # Downgrading dependencies
+
+# ========================================= GITIT ==========================
+# Gitit aliases
+alias myrepos='gitit repo rensoliemans'
