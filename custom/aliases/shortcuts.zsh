@@ -1,4 +1,4 @@
-alias balias='vim ~/.oh-my-zsh/custom/aliases.zsh && source ~/.zshrc'
+alias balias="cd $ZSH/custom/aliases"
 alias sourcez='source ~/.zshrc'
 
 alias xo='xdg-open'
