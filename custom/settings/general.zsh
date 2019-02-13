@@ -12,3 +12,7 @@ compinit
 
 # tab completion from both ends
 setopt completeinword
+
+[[ $TERM != "screen-256color" ]] && exec tmux
+
+eval $(thefuck --alias)
