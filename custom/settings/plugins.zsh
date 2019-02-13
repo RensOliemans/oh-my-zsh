@@ -1,0 +1,23 @@
+plugins=(
+  git
+  pip
+  sudo
+  tmux
+  debian
+  cargo
+  common-aliases
+  #thefuck
+  man
+  zsh-autocompletions
+  web-search
+  git-it-on
+  colored-man-pages
+  zsh-autosuggestions
+  zsh-syntax-highlighting
+  alias-tips
+  #z
+  fasd
+  notify
+  extract
+  virtualenvwrapper
+)
