@@ -1,6 +1,6 @@
 ZSH_THEME="spaceship-prompt/spaceship"
 DEFAULT_USER=`whoami`
-ENABLE_CORRECTION="true"  # Correction for wrong commands
+ENABLE_CORRECTION="false"  # Correction for wrong commands
 HIST_STAMPS="dd.mm.yyyy"  # Timestamp for `history` command
 
 

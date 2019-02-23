@@ -6,6 +6,7 @@ plugins=(
   debian
   cargo
   common-aliases
+  django
   #thefuck
   man
   zsh-autocompletions
