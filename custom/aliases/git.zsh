@@ -2,13 +2,22 @@
 # Git commands
 # Overrule gs ghostscript from oh-my-zsh
 alias gs='gss'
+
 alias gbv='git branch -v'
+
 alias gmd='git merge --no-ff develop -m ":handshake: Merge branch develop"'
 alias gmm='git merge master'
+
 alias gfu='git fetch upstream'
 alias gfom='git fetch origin master'
 alias gfum='git fetch upstream master'
 
+alias gpt='git push --tags'
+
+
+# ---------------------- GIT LOG ------------------------
+alias gloga='git log --oneline --decorate --graph --all -n 30'
+alias glog='git log --oneline --decorate --graph -n 30'
 
 
 # ==============================   GITMOJI ===========================
