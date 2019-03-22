@@ -1,0 +1,1 @@
+alias td='tmux detach'
