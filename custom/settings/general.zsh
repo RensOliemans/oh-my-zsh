@@ -13,6 +13,7 @@ compinit
 # tab completion from both ends
 setopt completeinword
 
+# Start tmux on start zsh
 #[[ $TERM != "screen-256color" ]] && exec tmux
 
 eval $(thefuck --alias)
