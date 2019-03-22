@@ -69,14 +69,12 @@ fi
 
 if [[ $ZSH_DISABLE_COMPFIX != true ]]; then
   # If completion insecurities exist, warn the user
-  if ! compaudit &>/dev/null; then
-    handle_completion_insecurities
-  fi
+  handle_completion_insecurities
   # Load only from secure directories
-  compinit -i -d "${ZSH_COMPDUMP}"
+  compinit -i -C -d "${ZSH_COMPDUMP}"
 else
   # If the user wants it, load from all found directories
-  compinit -u -d "${ZSH_COMPDUMP}"
+  compinit -u -C -d "${ZSH_COMPDUMP}"
 fi
 
 # Load all of the plugins that were defined in ~/.zshrc
@@ -85,6 +83,8 @@ for plugin ($plugins); do
     source $ZSH_CUSTOM/plugins/$plugin/$plugin.plugin.zsh
   elif [ -f $ZSH/plugins/$plugin/$plugin.plugin.zsh ]; then
     source $ZSH/plugins/$plugin/$plugin.plugin.zsh
+  else
+    echo "Warning: plugin $plugin not found"
   fi
 done
 
