@@ -7,6 +7,7 @@ alias gbv='git branch -v'
 
 alias gmd='git merge --no-ff develop -m ":handshake: Merge branch develop"'
 alias gmm='git merge master'
+alias gmnff='git merge --no-ff'
 
 alias gfu='git fetch upstream'
 alias gfom='git fetch origin master'
