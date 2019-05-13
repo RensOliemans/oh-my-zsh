@@ -1,5 +1,5 @@
-custom/plugins/
-custom/themes/
+# custom files
+custom/
 
 # temp files directories
 cache/
