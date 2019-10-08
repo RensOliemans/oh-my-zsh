@@ -90,10 +90,8 @@ for plugin ($plugins); do
   fi
 done
 
-# Load all of your custom configurations from custom/
-for config_file ($ZSH_CUSTOM/*.zsh(N)); do
-  source $config_file
-done
+# source $ZSH_CUSTOM/main.zsh
+
 unset config_file
 
 # Load the theme
