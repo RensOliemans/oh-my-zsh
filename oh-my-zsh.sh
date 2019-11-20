@@ -90,8 +90,6 @@ for plugin ($plugins); do
   fi
 done
 
-# source $ZSH_CUSTOM/main.zsh
-
 unset config_file
 
 # Load the theme
