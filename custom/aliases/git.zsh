@@ -17,7 +17,7 @@ alias gpt='git push --tags'
 
 
 # ---------------------- GIT LOG ------------------------
-alias gloga='git log --oneline --decorate --graph --all -n 30'
+alias gloga='git log --oneline --decorate --graph --all -n 20'
 alias glog='git log --oneline --decorate --graph -n 30'
 
 
