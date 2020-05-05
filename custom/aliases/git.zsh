@@ -60,6 +60,7 @@ alias glicense='gcmsg ":page_facing_up:'       # Changing license files
 alias gmerge='gcmsg ":handshake:'              # Merging code
 alias gupgr='gcmsg ":arrow_up:'                # Upgrading dependencies
 alias gdowngr='gcmsg ":arrow_down:'            # Downgrading dependencies
+alias gsub='gcmsg ":card_file_box:'            # Submodule changes
 
 # ========================================= GITIT ==========================
 # Gitit aliases
