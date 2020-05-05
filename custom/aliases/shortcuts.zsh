@@ -7,4 +7,4 @@ alias swaprm='rm ~/.local/share/nvim/swap/*.swp'
 
 alias ll='ls -lah'
 
-alias dus='_ du -sch * | sort -hr'
+alias dus='du -sch * | sort -hr'
