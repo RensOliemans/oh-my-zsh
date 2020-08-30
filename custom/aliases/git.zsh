@@ -15,6 +15,8 @@ alias gfum='git fetch upstream master'
 
 alias gpt='git push --tags'
 
+alias gstsa='git stash save'
+
 
 # ---------------------- GIT LOG ------------------------
 alias gloga='git log --oneline --decorate --graph --all -n 20'
