@@ -12,7 +12,6 @@ plugins=(
   colored-man-pages
   zsh-autosuggestions
   zsh-syntax-highlighting
-  alias-tips
   fasd
   extract
   virtualenvwrapper
