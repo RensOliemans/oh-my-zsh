@@ -12,3 +12,8 @@ alias sshpi="ssh pi@$HOMEPI"
 alias pingpi="ping $HOMEPI"
 
 alias sshvimexx="ssh $USERZXCS@$HOSTZXCS -p $PORTZXCS"
+
+export VN='rensoliemans.nl'
+export Shared="$VN:/mnt/disks/Shared"
+export Movies="$Shared/Movies"
+export Series="$Shared/Series"

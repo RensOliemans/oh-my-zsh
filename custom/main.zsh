@@ -7,3 +7,5 @@ for zsh_file in $ZSH_CUSTOM/aliases/*.zsh; do
 done
 
 source $ZSH_CUSTOM/after.zsh
+
+# git config --global --add core.pager "less -F -X"

@@ -18,6 +18,10 @@ alias gpt='git push --tags'
 alias gstsa='git stash save'
 
 
+alias addbuild='yarn build && gaa && git commit -m ":pencil2: Add build" && git push'
+alias addpack='./mvnw package -DskipTests && gaa && git commit -m ":pencil2: Add build" && git push'
+
+
 # ---------------------- GIT LOG ------------------------
 alias gloga='git log --oneline --decorate --graph --all -n 20'
 alias glog='git log --oneline --decorate --graph -n 30'
