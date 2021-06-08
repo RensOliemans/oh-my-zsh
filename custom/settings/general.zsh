@@ -15,3 +15,6 @@ setopt completeinword
 
 # Start tmux on start zsh
 #[[ $TERM != "screen-256color" ]] && exec tmux
+
+# This is so git pager doesn't use fullscreen if the output is small
+export LESS=eFRX
