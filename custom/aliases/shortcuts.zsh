@@ -9,5 +9,5 @@ alias ll='ls -lah'
 
 alias dus='du -sch * | sort -hr'
 
-alias al='apt list --upgradable'
+alias ali='apt list --upgradable'
 alias aar='sudo apt autoremove'
